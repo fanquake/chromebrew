@@ -3891,7 +3891,7 @@
     "name": "github-cli",
     "description": "Official Github CLI tool",
     "homepage": "https://cli.github.com/",
-    "version": "2.50.0",
+    "version": "2.51.0",
     "license": "MIT",
     "compatibility": "all"
   },
@@ -7137,9 +7137,9 @@
   },
   {
     "name": "libmaxminddb",
-    "description": "MaxMind GeoIP2 database - split package with library and utilities",
-    "homepage": "https://dev.maxmind.com/geoip/geoip2/downloadable/",
-    "version": "1.6.0",
+    "description": "C library for the MaxMind DB file format.",
+    "homepage": "https://maxmind.github.io/libmaxminddb/",
+    "version": "1.10.0",
     "license": "Apache-2.0",
     "compatibility": "all"
   },
@@ -8174,6 +8174,14 @@
     "version": "1.5",
     "license": "MIT",
     "compatibility": "x86_64 aarch64 armv7l"
+  },
+  {
+    "name": "libversion",
+    "description": "Advanced version string comparison library.",
+    "homepage": "https://github.com/repology/libversion",
+    "version": "3.0.3",
+    "license": "MIT",
+    "compatibility": "all"
   },
   {
     "name": "libvips",
@@ -9594,8 +9602,8 @@
   {
     "name": "msgpack-c",
     "description": "An efficient object serialization library",
-    "homepage": "https://msgpack.org/",
-    "version": "6.0.0",
+    "homepage": "https://github.com/msgpack/msgpack-c",
+    "version": "6.0.1",
     "license": "BSL-1.0",
     "compatibility": "all"
   },
@@ -15864,6 +15872,14 @@
     "compatibility": "x86_64 aarch64 armv7l"
   },
   {
+    "name": "vcpkg",
+    "description": "C++ Library Manager for Windows, Linux, and MacOS",
+    "homepage": "https://github.com/microsoft/vcpkg",
+    "version": "2024.05.24",
+    "license": "MIT",
+    "compatibility": "all"
+  },
+  {
     "name": "vdev",
     "description": "A device-file manager for *nix",
     "homepage": "https://github.com/jcnelson/vdev",
@@ -17121,11 +17137,11 @@
   },
   {
     "name": "zvbi",
-    "description": "The Zapping VBI library, in short ZVBI, provides functions to capture and decode VBI data.",
-    "homepage": "http://zapping.sourceforge.net/ZVBI/",
-    "version": "0.2.35-2",
-    "license": "GPL-2 and LGPL-2",
-    "compatibility": "x86_64 aarch64 armv7l"
+    "description": "VBI capture and decoding library.",
+    "homepage": "https://github.com/zapping-vbi/zvbi",
+    "version": "0.2.42-ae74ae51",
+    "license": "GPL-2+",
+    "compatibility": "all"
   },
   {
     "name": "zziplib",
